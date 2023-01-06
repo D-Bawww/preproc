@@ -1,0 +1,36 @@
+.CSS .block1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.CSS .block1 img {
+  float: right;
+  margin: 0px 10px 10px 10px;
+}
+.CSS .block2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+.CSS .block2 video {
+  width: 40%;
+}
+@media (max-width: 725px) {
+  .CSS .block1 {
+    text-align: center;
+    flex-direction: column;
+  }
+  .CSS .block1-item2 img {
+    float: none;
+    width: 90%;
+    padding: 15px;
+  }
+  .CSS .block2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .CSS .block2 video {
+    width: 85%;
+  }
+}

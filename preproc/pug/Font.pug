@@ -1,0 +1,24 @@
+extends Template
+block variables
+	-	var title = 'Шрифт'
+block content
+	.content
+		.images_block
+			.images_block-item
+				img(src="C:/Users/Сергей/Desktop/test1/img/css-text-decoration.png")
+			.images_block-item
+				img(src="C:/Users/Сергей/Desktop/test1/img/css-probely.png")
+			.images_block-item
+				img(src="C:/Users/Сергей/Desktop/test1/img/css-text.png")
+		.block2
+			p
+				|font - универсальное свойство, которое позволяет одновременно задать несколько характеристик шрифта и текста.<br>
+				|Синтаксис <br> font: [font-style||font-variant||font-weight] font-size [/line-height] font-family | inherit
+		.block3
+			p
+				|font-style - определяет начертание шрифта: обычное, курсивное или наклонное.
+				|Когда для текста установлено курсивное или наклонное начертание, браузер обращается
+				|к системе для поиска подходящего шрифта. Если заданный шрифт не найден, браузер использует
+				|специальный алгоритм для имитации нужного вида текста. Результат и качество при этом могут
+				|получиться неудовлетворительными, особенно при печати документа.<br>
+				|Синтаксис <br> font-style: normal | italic | oblique | inherit

@@ -1,0 +1,29 @@
+.Shrift .block1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  margin: 15px 0px;
+}
+.Shrift .block1-item {
+  width: 33.33%;
+}
+.Shrift img {
+  width: 90%;
+}
+.Shrift .block2 {
+  padding: 10px;
+}
+.Shrift .block3 {
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .Shrift .block1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Shrift .block1-item {
+    width: 100%;
+    padding: 10px;
+  }
+}

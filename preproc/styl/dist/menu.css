@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 0px;
+}
+.menu_item {
+  width: 16%;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.menu_item:hover {
+  background-color: #dcdcdc;
+}
+.page {
+  background-color: #dcdcdc;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #00bfff;
+}
+p {
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 2em;
+  word-spacing: 1.5em;
+}
+@media (max-width: 725px) {
+  .menu {
+    flex-wrap: wrap;
+  }
+  .menu_item {
+    width: 50%;
+  }
+}

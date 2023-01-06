@@ -1,0 +1,20 @@
+mixin createMenu(title)
+	.menu
+		if title == 'Главная страница'
+			.menu_item.page CSS
+		else
+			.menu_item
+				a(href="Index.html") CSS			  
+		.menu_item Синтаксис CSS
+		.menu_item Вставка CSS
+		.menu_item CSS текст
+		if title == 'Шрифт'
+			.menu_item.page CSS шрифт
+		else
+			.menu_item
+				a(href="Font.html") CSS шрифт
+		if title == 'Блоки'
+			.menu_item.page Блоки
+		else
+			.menu_item
+				a(href="Blocks.html") Блоки

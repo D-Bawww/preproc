@@ -1,0 +1,86 @@
+.content .textBlock {
+  padding: padding/2;
+  margin: padding/2;
+}
+.content .textBlock .imageBlock {
+  padding: padding;
+  float: right;
+  width: 40%;
+  overflow: hidden;
+}
+.content .textBlock p {
+  line-height: 2;
+  margin: 1vw;
+  text-align: justify;
+  text-indent: 2vw;
+  word-spacing: 0.5em;
+}
+.content .textFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  flex-wrap: wrap;
+}
+.content .textFlexLeft1 {
+  display: flex;
+  width: 33.33%;
+}
+.content .textFlexLeft1 p {
+  line-height: 2;
+  margin: 0 2.5%;
+  text-align: justify;
+  text-indent: 2vw;
+  word-spacing: 0.5em;
+}
+.content .textFlexRight1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 66.66%;
+}
+.content .textFlexRight1 p {
+  line-height: 2;
+  margin: 0 1.25%;
+  text-align: justify;
+  text-indent: 2vw;
+  word-spacing: 0.5em;
+}
+@media (max-width: 725px) {
+  .content .textBlock {
+    padding: padding/2;
+    margin: padding/2;
+  }
+  .content .textBlock .imageBlock {
+    margin: padding;
+    float: none;
+    margin: auto;
+    width: 50%;
+  }
+  .content .textBlock p {
+    line-height: 2;
+    margin: padding;
+    text-align: justify;
+    word-spacing: 1px;
+  }
+  .content .textFlex {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+  }
+  .content .textFlex .textBlock {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  .content .textFlex .textFlexRight1 {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  .content .textFlex .textFlexLeft1 {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+}
